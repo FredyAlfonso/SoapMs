@@ -11,6 +11,15 @@
         </xs:complexType>
     </xs:element>
 
+    <xs:element name="pdfRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="file" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="usersRequest">
     </xs:element>
 
